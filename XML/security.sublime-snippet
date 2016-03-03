@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<record model="res.groups" id="group_${1:name}">
+    <field name="category_id" ref="module_category_${2:module_name}" />
+    <field name="name">${3:Group name}</field>
+</record>
+]]></content>
+    <tabTrigger>security</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Security Group</description>
+</snippet>
