@@ -24,7 +24,7 @@ Linux
 
 2) Pull the repository from ``Github``
 
-    $ git clone https://github.com/oa-solutions/odoo_sublime.git
+    $ git clone https://github.com/adekock11/odoo_sublime.git
 
 Mac
 ~~~
