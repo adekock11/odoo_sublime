@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+<template id="report_${1:model_name}_document" name="${2:Report name} (Document)">
+    <t t-call="report.external_layout">
+        <div class="page">
+
+        </div>
+    </t>
+</template>
+
+<template id="report_${1:model_name}" name="${2:Report name}">
+    <t t-call="report.html_container">
+        <t t-foreach="doc_ids" t-as="doc_id">
+            <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', '${3:module_name}.report_${1:model_name}_document')"/>
+        </t>
+    </t>
+</template>
+]]></content>
+    <tabTrigger>report</tabTrigger>
+    <scope>text.xml</scope>
+    <description>QWeb Report Template (Translatable)</description>
+</snippet>

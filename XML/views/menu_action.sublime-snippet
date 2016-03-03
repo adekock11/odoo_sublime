@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<menuitem
+    id="menu_${1:model_name}"
+    name="${2:Menu label}"
+    parent="menu_${3:parent_id}"
+    action="action_${4:model_name}" />
+]]></content>
+    <tabTrigger>menu</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Action menu item</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<template id="assets_frontend" name="${1:module_name} frontend assets" inherit_id="website.assets_frontend">
+    <xpath expr="." position="inside">
+        <link rel="stylesheet" href="/${1:module_name}/static/src/css/${1:module_name}.css"/>
+        <script type="text/javascript" src="/${1:module_name}/static/src/js/${1:module_name}.js"></script>
+    </xpath>
+</template>
+]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Template (Frontend Assets)</description>
+</snippet>

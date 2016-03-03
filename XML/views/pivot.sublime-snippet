@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_pivot">
+    <field name="name">${1/_/./g}.pivot</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">pivot</field>
+    <field name="priority">0</field>
+    <field name="arch" type="xml">
+        <pivot>
+            <field name="field" type="col"/>
+            <field name="field" type="row"/>
+            <field name="field" type="measure"/>
+        </pivot>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>pivot</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Pivot view</description>
+</snippet>

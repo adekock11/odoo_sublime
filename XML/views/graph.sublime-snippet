@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_graph">
+    <field name="name">${1/_/./g}.graph</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">graph</field>
+    <field name="priority">0</field>
+    <field name="arch" type="xml">
+        <graph>
+            <field name="field" type="col"/>
+            <field name="field" type="row"/>
+            <field name="field" type="measure"/>
+        </graph>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>graph</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Graph view</description>
+</snippet>

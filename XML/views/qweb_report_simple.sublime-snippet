@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<template id="report_${1:model_name}" name="${2:Report name}">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="report.external_layout">
+                <div class="page">
+
+                </div>
+            </t>
+        </t>
+    </t>
+</template>
+]]></content>
+    <tabTrigger>report</tabTrigger>
+    <scope>text.xml</scope>
+    <description>QWeb Report Template (Simple)</description>
+</snippet>

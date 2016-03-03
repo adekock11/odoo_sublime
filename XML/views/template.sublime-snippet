@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<template id="${1:template_name}" name="${2:Template name}">
+    
+</template>
+]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Template</description>
+</snippet>
