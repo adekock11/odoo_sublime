@@ -1,11 +1,13 @@
 <snippet>
     <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
-<odoo>
+<openerp>
+	<data>
 
-${0}
+		${0}
 
-</odoo>
+	</data>
+</openerp>
 ]]></content>
     <tabTrigger>xml</tabTrigger>
     <scope>text.xml</scope>
