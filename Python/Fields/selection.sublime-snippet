@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+fields.Selection(string="${1:Field label}", selection=[
+${0}
+])
+]]></content>
+    <tabTrigger>fields.</tabTrigger>
+    <scope>source.python</scope>
+    <description>Selection</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+fields.Float(string="${1:Field label}")
+]]></content>
+    <tabTrigger>fields.</tabTrigger>
+    <scope>source.python</scope>
+    <description>Float</description>
+</snippet>
