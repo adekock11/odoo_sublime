@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+from openerp import models, fields, api, exceptions, _
+
+import logging
+_logger = logging.getLogger(__name__)
+
+class ${1:ModelName}(models.TransientModel):
+
+    _name = '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
+    _inherit = 'res.config.settings'
+
+    example_field = fields.Char(string="Example Field")
+
+    @api.multi
+    def set_example_field(self):
+        self.env['ir.config_parameter'].set_param('${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}.example_field', self[0].example_field)
+
+    @api.multi
+    def get_default_example_field(self):
+        return {'example_field': self.env['ir.config_parameter'].get_param('${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}.example_field', default=False)}
+
+]]></content>
+    <tabTrigger>model</tabTrigger>
+    <scope>source.python</scope>
+    <description>Model (Extending res.config.settings)</description>
+</snippet>
