@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+{
+    "name": "${1:Module name}",
+    "version": "1.0",
+    "author" : "${2:Company Name}",
+    "website": "${3:http://www.mycompany.com}",
+    "category": "${4:Category}",
+    "description": """
+${1:Module name}
+${1/./=/g}
+""",
+    "summary": "${5:Keywords}",
+    "depends": [],
+    "data" : [],
+    "demo" : [],
+    "js": ['static/src/js/*.js'],
+    "css": ['static/src/css/*.css'],
+    "qweb": ['static/src/xml/*.xml'],
+    "installable": True,
+}
+]]></content>
+    <tabTrigger>openerp</tabTrigger>
+    <scope>source.python</scope>
+    <description>Manifest File</description>
+</snippet>
