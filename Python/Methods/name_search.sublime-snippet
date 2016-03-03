@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+@api.model
+def name_search(self, name, args=None, operator='ilike', limit=100):
+    args = args or []
+    recs = self.browse()
+    if name:
+        recs = self.search([('name', operator, name)] + args, limit=limit)
+    return recs.name_get()
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Name Search</description>
+</snippet>

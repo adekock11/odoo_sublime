@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@api.one
+@api.constrains('${1:field}')
+def _check_${1:field}(self):
+    raise ValidationError("${2:Validation error message...}")
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Constrains</description>
+</snippet>

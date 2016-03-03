@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+@api.multi
+def name_get(self):
+    result = []
+    for record in self:
+        result.append((record.id, record.name))
+    return result
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Name Get</description>
+</snippet>

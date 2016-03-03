@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@api.one
+@api.depends('${1:field}')
+def _compute_${1:field}(self):
+    ${0}
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Compute</description>
+</snippet>
