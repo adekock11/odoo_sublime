@@ -11,14 +11,18 @@ Installation instructions
 Windows
 ~~~~~~~
 
-1) Download the repository as a ZIP file.
+1) Change to ``Sublime`` package directory
 
-2) Extract the ZIP file to your Sublime packages location which is usually located at: "C:\\Users\\<YourUsername>\\AppData\\Roaming\\Sublime Text 3\\Packages"
+    $ cd  \\Users\\<user>\\AppData\\Roaming\\Sublime Text 3\\Packages
+
+2) Pull the repository from ``Github``
+
+    $ git clone https://github.com/adekock11/odoo_sublime.git
 
 Linux
 ~~~~~
 
-1) Change to ``Sublime`` configuration directory. 
+1) Change to ``Sublime`` package directory 
 
     $ cd  $HOME/.config/sublime-text-3/Packages
 
@@ -29,7 +33,13 @@ Linux
 Mac
 ~~~
 
-TODO
+1) Change to ``Sublime`` package directory
+
+    $ cd /Users/<user>/Library/Application Support/Sublime Text 3/Packages
+
+2) Pull the repository from ``Github``
+
+    $ git clone https://github.com/adekock11/odoo_sublime.git
 
 How to use
 ----------
