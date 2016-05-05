@@ -13,7 +13,7 @@
             <filter string="Archived" domain="[('active', '=', False)]" />
             <group expand="0" string="Group By">
                 <!-- Example of a group by -->
-                <filter string="Customer" domain="" context="{'group_by': 'partner_id'}"/>
+                <filter string="Customer" domain="" context="{'group_by': 'partner_id'}" />
             </group>
         </search>
     </field>
