@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-assertSequenceEqual(${1:seq1}, ${2:seq2}${4:, ${3:msg=None}}${6:, ${5:seq_type=None}})
+self.assertSequenceEqual(${1:seq1}, ${2:seq2}${4:, ${3:msg=None}}${6:, ${5:seq_type=None}})
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertSequenceEqual</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-assertNotAlmostEqual(${1:first}, ${2:second}${4:, ${3:places=7}}${6:, ${5:msg=None}}${9:, ${8:delta=None}})
+self.assertNotAlmostEqual(${1:first}, ${2:second}${4:, ${3:places=7}}${6:, ${5:msg=None}}${9:, ${8:delta=None}})
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertNotAlmostEqual</tabTrigger>

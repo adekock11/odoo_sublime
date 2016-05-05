@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-assertListEqual(${1:expected}, ${2:actual}, ${3:'Message'})
+self.assertListEqual(${1:expected}, ${2:actual}, ${3:'Message'})
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertListEqual</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-assertFalse(${1:actual}, ${2:'Message'})
+self.assertFalse(${1:actual}, ${2:'Message'})
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertFalse</tabTrigger>

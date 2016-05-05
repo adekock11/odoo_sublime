@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-assertNotEqual(${1:first}, ${2:second}${4:, ${3:msg=None}})
+self.assertNotEqual(${1:first}, ${2:second}${4:, ${3:msg=None}})
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertNotEqual</tabTrigger>

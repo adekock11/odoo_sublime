@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-assertNotIsInstance(${1:obj}, ${2:cls}${4:, ${3:msg=None}})
+self.assertNotIsInstance(${1:obj}, ${2:cls}${4:, ${3:msg=None}})
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertNotIsInstance</tabTrigger>
