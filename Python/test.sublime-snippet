@@ -2,6 +2,7 @@
     <content><![CDATA[
 from openerp.tests.common import TransactionCase
 
+
 class ${1:ModelName}(TransactionCase):
     
     def setUp(self):
@@ -9,7 +10,7 @@ class ${1:ModelName}(TransactionCase):
         ${0}
 
 ]]></content>
-    <tabTrigger>class</tabTrigger>
+    <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
     <description>Extend TransactionCase Class</description>
 </snippet>
