@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-self.assertTrue(${1:expr}${3:, ${2:msg=None}})
+self.assertTrue(${1:expected}, '${2:Message}')
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertTrue</tabTrigger>
