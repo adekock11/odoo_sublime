@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-self.assertTupleEqual(${1:tuple1}, ${2:tuple2}${4:, ${3:msg=None}})
+self.assertTupleEqual(${1:expected}, ${2:actual}, '${3:Message}')
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertTupleEqual</tabTrigger>

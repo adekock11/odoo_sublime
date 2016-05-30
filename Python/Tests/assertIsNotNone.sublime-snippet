@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-self.assertIsNotNone(${1:actual}, ${2:'Message'})
+self.assertIsNotNone(${1:actual}, '${2:Message}')
 ]]></content>
     <tabTrigger>assert</tabTrigger>
     <tabTrigger>assertIsNotNone</tabTrigger>
