@@ -4,5 +4,5 @@ rule_${1:group_name}_${2:model_name},${3:module_name}.${1:group_name},${2/_/./g}
 ]]></content>
     <source>text.csv</source>
     <tabTrigger>rule</tabTrigger>
-    <description>Rule line</description>
+    <description>Rule line (Generic)</description>
 </snippet>

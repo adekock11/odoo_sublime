@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+rule_${1:model_name}_multi_company,,${1/_/./g},1,1,1,1,"['|',('company_id','=',False),('company_id','child_of',[user.company_id.id])]"
+]]></content>
+    <source>text.csv</source>
+    <tabTrigger>rule</tabTrigger>
+    <description>Rule line (Multi Company)</description>
+</snippet>
