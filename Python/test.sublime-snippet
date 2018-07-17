@@ -4,7 +4,7 @@ from openerp.tests.common import TransactionCase
 
 
 class ${1:ModelName}(TransactionCase):
-    
+
     def setUp(self):
         super(${1}, self).setUp()
         ${0}
